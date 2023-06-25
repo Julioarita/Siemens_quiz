@@ -38,34 +38,36 @@ spaces in the strings since the given strings consider only alphabetic character
 
 There is a piece of code that is not require, as I mentioned above, due to the
 purpose of our function once the conditions ```length(s) + length(t) <= k``` and 
-length(s) >= length(t) are true always will be possible to perform the conversion.
+```length(s) >= length(t)`` are true always will be possible to perform the conversion.
 
 [Third](https://github.com/Julioarita/Quiz/tree/main/Answers/Third%20Problem)
 
 
-## Fourth Problem:
+## Fifth Problem:
 
-This one was the most tricky for me. I wasn't familiar with Unit Test. So far, I have been trying to code a minimal Unit Test and I haven't achieved it properly, just a few poor results. I would need more time to do it. So, as my time is over I decided to leave it blank. 
+This one was the most tricky for me. I've been performing unit test in python not c++. So far, I have been trying to code a minimal Unit Test and I haven't achieved it properly, at least, not in the way I would have desire it, just a few poor results. I would need more time to do it. So, as my time is over I'll leave what I achieved so far.
 
+[Fifth](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Fifth_problem)
 
-
-## Fifth Problem: 
-
-
-I used SQlite as interpreter of commands, but probably due to it is a simple query you can use any other SQL interpreter.
-
-Although the problem statement declared that it should be sort by their names in alphabetical order when students 
-grades (8-10) are the same but it seemed that they were sorted by opposite way in the example.
-As much as I understand, alphabetical order is descending order, so first letter is A, then B, then C and so on and so forth. 
-
-Anyway, probably it was my misunderstood but I wanted to remark it.
-
-[Fifth](https://github.com/Julioarita/Quiz/tree/main/Answers/Fifth%20Problem)
 
 
 ## Sixth Problem: 
 
-Although this example does not require a especific code file. I decided to backup my idea with an little example to better explain what I consider, I think, it is a case of polymorphism.
+
+I used SQlite as interpreter of commands, but probably due to it is a simple query you can use any other SQL interpreter.
+
+Although the problem statement says that it should be sorted by their names in alphabetical order when students 
+grades (8-10) are the same, it seems that they were sorted by opposite way in the example.
+As much as I understand, alphabetical order is descending order, so first letter is A, then B, then C and so on and so forth. 
+
+Anyway, probably it was my misunderstood but I wanted to remark it.
+
+[Sixth](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Sixth_problem)
+
+
+## Seventh Problem: 
+
+Although this example does not require a especific code file. I decided to backup my idea with a little example to better explain what I consider it is a case of polymorphism.
 
 In my point of view we could consider as an example of method overloading and superimpose 
 as well, but the use of the pointer to the base class is a clear example of polymorphism.
@@ -73,31 +75,37 @@ It seems like we are having just method overloading but we are using a pointer a
 So, to access each particular method in each subclass, we have to use a 'virtual funtion' 
 in the base class declaration.
 
-[Sixth](https://github.com/Julioarita/Quiz/tree/main/Answers/Sixth%20Problem)
+[Seventh](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Seventh_problem)
 
 
-## Seventh Problem:
+## Eighth Problem:
 I used SQlite as interpreter of commands, but probably due to it is a simple query you can use any other SQL interpreter.
 
 In this particular problem I wasn't given with any constraints so I decided to use `UNION`
 which pull out all distinct values from both tables.
 
-[Seventh](https://github.com/Julioarita/Quiz/tree/main/Answers/Seventh%20Problem)
+[Eighth](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Eighth_problem)
 
-# Eighth Problem:
+# Ninth Problem:
 
-In this problem I used a .txt file to represent what I consider it would be the proper commands to perform every action.
+In this problem I used a ```.sh`` file to represent what I consider it would be the proper commands to perform every action.
 
-[Eighth](https://github.com/Julioarita/Quiz/tree/main/Answers/Eighth%20Problem)
+[Ninth](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Ninth_problem)
 
-# #Ninth Problem:
+## Tenth Problem:
 
 It could be also possible to use a 'pointer', probably that would be the
 best way to do it.
-But we'll be constrained to vector length, and as I wasn't given with length restriction.
+But we'll be constrained to vector length and I wasn't given with length restrictions.
 Since I was not limited to the way in how to get the string, I decided to do it like so.
 
-[Ninth](https://github.com/Julioarita/Quiz/tree/main/Answers/Ninth%20Problem)
+[Tenth](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Tenth_problem)
 
+## Eleventh Problem:
 
+Since I was not given any constraints related to input string length. I decided to use standard 'string' class to get the informed string by the user.
+
+This problem was a bit tricky and took me a while to get across a solution. Basically, the idea behind the process is taking advantage of ASCII standard. So, adding a value to a ```char```variable results in another ```char```value. So, we can use this to 'mask' our letter and retrieve it in another parts of the code.
+
+[Eleventh](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Eleventh_problem)
 
