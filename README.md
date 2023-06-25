@@ -26,11 +26,11 @@ to zero, then the number is a multiple. I consider all conditions.
 [Third](https://github.com/Julioarita/Siemens_quiz/tree/df02e4c614330ce2b790ee0a59f29fdff7c61534/Answers/Third_problem)
 
 
-## Third Problem:
+## Fourth Problem:
 
-Considering our function purpose, performing the conversion is not required 
+Considering our problem statement, performing the conversion is not required 
 once confirmed that is possible to do it. Due to the fact that our return 
-is a string and not the conversion properly.
+is a constant string and not the conversion properly.
 
 The portuguese alphabet contain 26 characters, all of them included in 
 ASCII table (1 byte). Starting from the decimal value 97 until to 122. I am not considering
@@ -38,7 +38,7 @@ spaces in the strings since the given strings consider only alphabetic character
 
 There is a piece of code that is not require, as I mentioned above, due to the
 purpose of our function once the conditions length(s) + length(t) <= k and 
-length(s) >= length(t) are true always will be possible to perform conversion.
+length(s) >= length(t) are true always will be possible to perform the conversion.
 
 [Third](https://github.com/Julioarita/Quiz/tree/main/Answers/Third%20Problem)
 
