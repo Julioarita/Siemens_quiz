@@ -38,9 +38,9 @@ spaces in the strings since the given strings consider only alphabetic character
 
 There is a piece of code that is not require, as I mentioned above, due to the
 purpose of our function once the conditions ```length(s) + length(t) <= k``` and 
-```length(s) >= length(t)`` are true always will be possible to perform the conversion.
+```length(s) >= length(t)``` are true always will be possible to perform the conversion.
 
-[Fourth](https://github.com/Julioarita/Quiz/tree/main/Answers/Third%20Problem)
+[Fourth](https://github.com/Julioarita/Siemens_quiz/tree/c2d3dfaee09680ad45990591c11e081baa53bee7/Answers/Fourth_problem)
 
 
 ## Fifth Problem:
