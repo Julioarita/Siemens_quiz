@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "ConcatRemove.h" // Assuming the function is defined in a separate header file
+#include "../fourth.cpp" // Assuming the function is defined in a separate header file
 using namespace std;
 
 void test_ConcatRemove() {
