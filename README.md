@@ -86,9 +86,9 @@ which pull out all distinct values from both tables.
 
 [Eighth](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Eighth_problem)
 
-# Ninth Problem:
+## Ninth Problem:
 
-In this problem I used a ```.sh`` file to represent what I consider it would be the proper commands to perform every action.
+In this problem I used a ```.sh``` file to represent what I consider it would be the proper commands to perform every action.
 
 [Ninth](https://github.com/Julioarita/Siemens_quiz/tree/b4ff1dec380fac381e93a0541bd7876107c32dcc/Answers/Ninth_problem)
 
