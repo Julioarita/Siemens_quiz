@@ -1,6 +1,6 @@
 /*************************************************************************
 
-Julio Arita 22/05/2021
+Julio Arita 23/06/2023
 
 Some remarks:
 
@@ -28,6 +28,13 @@ char no[] = "No";
 //Function prototype declarations. Our function return a string (char *)
 char* ConcatRemove(char*, char*, int);
 
+// Global variables declarations
+char string_s[] = "abcdefghijklmnropqstuvwxyz";
+char string_t[] = "abcdefghijklmnropqstuvwxyzssss";
+char* for_printing;
+int operations = 33;
+
+
 // Test case to check. It's imcomplete
 /*
 BEGIN_TEST(){
@@ -38,6 +45,15 @@ int main(){
   RUN_TEST()
   return 0;
 }*/
+
+int main (){
+      cout << "'s' value: " << string_s << "\n";
+      cout << "'t' value: " << string_t << "\n";
+      for_printing = ConcatRemove(string_s, string_t, operations);
+      cout << for_printing << "\n";
+      cout << "'con_s' value: " << string_s << "\n";
+      cout << "'con_t' value: " << string_t << "\n";
+}
 
 char* ConcatRemove(char* s, char *t, int k){
 
@@ -89,7 +105,7 @@ char* ConcatRemove(char* s, char *t, int k){
             if( step_stay > 0){
                   while(step_remove){                                      //Removing 's' characteres
                         if((step_remove - step_stay) > 0){
-                              *s = 120;
+                              *s = 0;
                               s++;
                         }
                         else {;}// Do nothing
@@ -99,7 +115,7 @@ char* ConcatRemove(char* s, char *t, int k){
             else if (step_stay == 0){
                   step_remove = length_s;
                   while(step_remove){                                      //Removing 's' characteres
-                        *s = 120;
+                        *s = 0;
                         s++;                    
                         step_remove--;
                   }

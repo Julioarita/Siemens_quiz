@@ -1,0 +1,7 @@
+# Files to be untracked
+*
+!/**/
+!*.*
+.vscode
+.DS_Store
+*.dSYM
