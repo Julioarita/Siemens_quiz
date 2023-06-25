@@ -37,7 +37,7 @@ ASCII table (1 byte). Starting from the decimal value 97 until to 122. I am not 
 spaces in the strings since the given strings consider only alphabetic characters.
 
 There is a piece of code that is not require, as I mentioned above, due to the
-purpose of our function once the conditions length(s) + length(t) <= k and 
+purpose of our function once the conditions ```length(s) + length(t) <= k``` and 
 length(s) >= length(t) are true always will be possible to perform the conversion.
 
 [Third](https://github.com/Julioarita/Quiz/tree/main/Answers/Third%20Problem)
