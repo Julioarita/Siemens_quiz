@@ -29,10 +29,10 @@ char no[] = "No";
 char* ConcatRemove(char*, char*, int);
 
 // Global variables declarations
-char string_s[] = "abcdefghijklmnropqstuvwxyzssss";
-char string_t[] = "abcdefghijklmnropqstuvwxyz";
+char string_s[100] = "abcdefghijklmnopqrstuvwxyzssss";
+char string_t[100] = "abcdefghijklmnopqrstuvwxyz";
 char* for_printing;
-int operations = 33;
+int operations = 2;
 
 
 
